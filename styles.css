@@ -1,4 +1,50 @@
 /* styles.css */
+.toolbar {
+    background-color: #4CAF50; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    justify-content: space-between; /* Memisahkan logo dan menu */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    padding: 10px 20px; /* Ruang di dalam toolbar */
+}
+
+.nav-menu ul {
+    list-style-type: none; /* Menghilangkan bullet */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menggunakan flexbox untuk menu */
+}
+
+.nav-menu li {
+    margin-left: 20px; /* Jarak antar item menu */
+}
+
+.nav-menu a {
+    color: white; /* Warna tautan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    padding: 5px 10px; /* Ruang di dalam tautan */
+    transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+.nav-menu a:hover {
+    background-color: #45a049; /* Warna saat hover */
+    border-radius: 5px; /* Sudut membulat saat hover */
+}
+
+/* Responsivitas */
+@media (max-width: 600px) {
+    .toolbar {
+        flex-direction: column; /* Mengubah arah flex menjadi kolom */
+        align-items: flex-start; /* Menyelaraskan item ke kiri */
+    }
+    .nav-menu ul {
+        flex-direction: column; /* Mengubah menu menjadi kolom */
+    }
+    .nav-menu li {
+        margin-left: 0; /* Menghilangkan margin kiri */
+        margin-bottom: 10px; /* Jarak antar item menu */
+    }
+}
 
 /* Reset default margin dan padding */
 * {
