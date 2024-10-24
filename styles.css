@@ -1,7 +1,7 @@
 /* Gaya untuk toolbar */
 .toolbar {
-    background-color: #4CAF50; /* Warna latar belakang */
-    color: white; /* Warna teks */
+    background-color: #d4af37; /* Warna emas */
+    color: white; /* Warna teks putih */
     display: flex; /* Menggunakan flexbox untuk tata letak */
     justify-content: space-between; /* Memisahkan logo dan menu */
     align-items: center; /* Menyelaraskan item secara vertikal */
@@ -20,21 +20,21 @@
 }
 
 .nav-menu a {
-    color: white; /* Warna tautan */
+    color: white; /* Warna tautan putih */
     text-decoration: none; /* Menghilangkan garis bawah */
     padding: 5px 10px; /* Ruang di dalam tautan */
     transition: background-color 0.3s; /* Transisi saat hover */
 }
 
 .nav-menu a:hover {
-    background-color: #45a049; /* Warna saat hover */
+    background-color: #b5942b; /* Warna emas lebih gelap saat hover */
     border-radius: 5px; /* Sudut membulat saat hover */
 }
 
 /* Gaya untuk tombol Kembali */
 button {
-    background: #35424a; /* Warna latar belakang tombol */
-    color: #ffffff; /* Warna teks tombol */
+    background: #d4af37; /* Warna emas */
+    color: #ffffff; /* Warna teks tombol putih */
     border: none; /* Menghilangkan border */
     padding: 10px 15px; /* Ruang di dalam tombol */
     border-radius: 5px; /* Sudut membulat */
@@ -43,7 +43,7 @@ button {
 }
 
 button:hover {
-    background: #3c4e57; /* Warna saat hover */
+    background: #b5942b; /* Warna emas lebih gelap saat hover */
     color: #ccc; /* Warna teks saat hover */
 }
 
@@ -52,7 +52,7 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #ffffff;
+    background: #f5f5dc; /* Krem lembut */
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -61,8 +61,8 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
+    background: #3e2723; /* Coklat tua untuk footer */
+    color: #ffffff; /* Putih untuk teks footer */
     position: relative;
     bottom: 0;
     width: 100%;
@@ -92,11 +92,11 @@ form input, form textarea {
 }
 
 #about ul li a {
-    color: #007bff;
+    color: #007bff; /* Biru untuk tautan */
     text-decoration: none;
 }
 
 #about ul li a:hover {
     text-decoration: underline;
-    color: #ccc;
+    color: #ccc; /* Warna saat hover */
 }
